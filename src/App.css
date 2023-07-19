@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.drop-down-button{
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.drop-down-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.drop-down-list {
+  background-color: cyan;
+  margin: 5px;
+  padding-inline: 36px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.drop-down-list li{
+  list-style: none;
+  padding-block: 10px;
+  border-bottom: 1px solid black;
+}

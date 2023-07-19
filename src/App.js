@@ -2,15 +2,15 @@ import './App.css';
 import DropDown from './dropDown';
 
 function App() {
-  return (
-    <div className="App">
-
-      <h1> Drop Down Project</h1>
-
-      <DropDown/>
-      
-    </div>
-  );
+  
+    const items = ['Option 1', 'Option 2', 'Option 3'];
+  
+    return (
+      <>
+        <DropDown items={items} />
+      </>
+    );
+  
 }
 
 export default App;
