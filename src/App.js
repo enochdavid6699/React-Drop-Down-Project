@@ -7,7 +7,6 @@ function App() {
   
     return (
       <>
-      <h1>Choose From The Drop Down</h1>
         <DropDown items={items} />
       </>
     );
